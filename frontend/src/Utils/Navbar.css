@@ -1,0 +1,42 @@
+.btnStyling {
+    border-bottom: 2px solid transparent;
+    transition: .2s ease-in-out;
+}
+
+.btnStyling:hover {
+    border-bottom: 2px solid rgb(255, 255, 255);
+    background-color: rgb(63, 169, 249);
+    color: white;
+}
+
+/* Supportive Nav */
+.supportiveNavBG {
+    background: linear-gradient(90deg, rgb(0, 94, 255), rgb(178, 210, 247), rgba(255, 255, 255, 0.442));
+}
+
+.btnStylingSupportiveNav {
+    border-bottom: 2px solid transparent;
+    transition: .5s ease-in-out;
+    color: black;
+}
+
+.btnStylingSupportiveNav:hover {
+    border-bottom: 2px solid black;
+}
+
+.btnStylingSupportiveNav:hover .bi-instagram {
+    color: rgb(164, 27, 176);
+    font-weight: 800;
+}
+
+.btnStylingSupportiveNav:hover .bi-facebook {
+    color: rgb(20, 0, 170);
+    font-weight: 800;
+}
+
+.btnStylingSupportiveNav:hover .bi-twitter {
+    color: rgb(20, 0, 170);
+    font-weight: 800;
+}
+
+/* Supportive Nav */
