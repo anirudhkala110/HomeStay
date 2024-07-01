@@ -181,9 +181,9 @@ function AutomaticImageSlider() {
                                 <center className='text-white alert bg-black rounded-0 mb-0 text-upper'>{data.info}</center>
                                 <img
                                     // onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}
-                                    className={`${data.img === mi ? 'white !important' : 'bg-dark'} w-100 text-white `}
+                                    className={`${data.img === mi ? 'white !important' : 'bg-dark'} w-100 text-white hoverimg `}
                                     src={data.img}
-                                    style={{ background: `${data.img === mi ? 'white !important' : ''}`, transform: 'scale(1)', maxHeight: '550px', height: '', minWidth: '400px', maxWidth: "", width: '-webkit-fill-available', color: 'white', filter: `${data.img === mi ? 'invert(0)' : ''}` }}
+                                    style={{ background: `${data.img === mi ? 'white !important' : ''}`, transform: 'scale(1)', maxHeight: '88vh', height: '', minWidth: '400px', maxWidth: "", width: '-webkit-fill-available', color: 'white', filter: `${data.img === mi ? 'invert(0)' : ''}` }}
                                     alt={`Slide ${idx}`}
                                     onClick={e => OpeninnewTab(data.img)}
                                 />

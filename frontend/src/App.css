@@ -47,3 +47,10 @@ html {
     display: block;
   }
 }
+
+.hoverimg{
+  transition: 0.3s ease-in-out !important;
+}
+.hoverimg:hover{
+  transform: scale(1.2) !important;
+}
