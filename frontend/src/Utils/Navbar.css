@@ -1,17 +1,19 @@
 .btnStyling {
     border-bottom: 2px solid transparent;
-    transition: .2s ease-in-out;
+    transition: .5s ease-in-out;
 }
 
 .btnStyling:hover {
     border-bottom: 2px solid rgb(255, 255, 255);
     background-color: rgb(63, 169, 249);
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 /* Supportive Nav */
 .supportiveNavBG {
-    background: linear-gradient(90deg, rgb(0, 94, 255), rgb(178, 210, 247), rgba(255, 255, 255, 0.442));
+    background: linear-gradient(90deg, rgb(62, 160, 226), rgb(178, 210, 247), rgba(94, 199, 234, 0.442));
+    font-weight: bolder;
+    letter-spacing: 2px;
 }
 
 .btnStylingSupportiveNav {
@@ -40,3 +42,21 @@
 }
 
 /* Supportive Nav */
+
+#navLinks a:active {
+    color: red !important;
+}
+
+
+#navbar a {
+    border-bottom: 1px solid rgba(129, 194, 254, 0) !important
+}
+
+#navbar a.active {
+    color: rgb(129, 194, 254) !important;
+    border-bottom: 1px solid rgb(129, 194, 254) !important
+}
+
+#navbar a:hover {
+    color: rgb(96, 237, 110) !important
+}
