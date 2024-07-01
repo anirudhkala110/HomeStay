@@ -31,7 +31,7 @@ const Details = () => {
             </center>
             {
                 images.map((data, idx) => (
-                    <div className='d-flex align-items-start justify-content-center col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xxl-6 col-xl-6' key={idx}>
+                    <div className='d-flex align-items-start justify-content-center col-sm-12 col-xs-12 col-md-6 col-lg-4 col-xxl-4 col-xl-4' key={idx}>
                         <div className='border' style={{ minWidth: '350px' }}>
                             <img src={data.img} onClick={e => OpeninnewTab(data.img)} className="img-thumbnail " style={{ maxWidth: "400px" }} />
                             <p className='px-2'>
