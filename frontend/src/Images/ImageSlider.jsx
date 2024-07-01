@@ -64,17 +64,17 @@ function AutomaticImageSlider() {
         >
             <div className='show750px'>
                 {/* <div className="swiper-button-prev slider-arrow p-2" style={{ height:"-webkit-fill-available", background: 'white' }}> */}
-                <div className="swiper-button-prev slider-arrow py-5"
+                {/* <div className="swiper-button-prev slider-arrow py-5"
                     // hovleft
                     style={{
                         // height:"-webkit-fill-available",
                         // background: '#ffffff52'
                     }}>
                     <ion-icon name="arrow-back-outline"></ion-icon>
-                </div>
+                </div> */}
                 <Swiper
                     // onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}
-                    className="slideshowSlider swiper_container rounded-0 shadow-6-strong py-5"
+                    className="slideshowSlider swiper_container rounded-0 shadow-6-strong py-1"
                     effect="cube"
                     grabCursor={true}
                     centeredSlides={true}
@@ -82,7 +82,7 @@ function AutomaticImageSlider() {
                     // autoplay={hover ? false : { delay: 2500 }}
                     // autoplay={hover === true ? false : { delay: 300 }}
                     autoplay={autoplayParams}
-                    slidesPerView={3}
+                    slidesPerView={1}
                     // flipEffect={{
                     //     slideShadows: true,
                     //     limitRotation: true
@@ -110,21 +110,18 @@ function AutomaticImageSlider() {
                         <SwiperSlide className="slide imageShadow text-white mb-2" key={idx}
                             onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}
                         >
-                            <div>
-                                <center className=''>
-                                    <center className='text-white bg-black py-3 border-0 rounded-0 mb-0 text-upper'>{data.info}</center>
-                                    <div className=''>
-                                        <img
-                                            // onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}
-                                            className={`${data.img === mi ? 'white !important' : 'bg-dark'} w-100 text-white `}
-                                            src={data.img}
-                                            style={{ background: `${data.img === mi ? 'white !important' : ''}`, transform: 'scale(1.01)', maxHeight: '350px', height: '40vh', minWidth: '400px', maxWidth: "", width: '-webkit-fill-available', color: 'white', filter: `${data.img === mi ? 'invert(1)' : ''}` }}
-                                            alt={`Slide ${idx}`}
-                                            onClick={e => OpeninnewTab(data.img)}
-                                        />
-                                    </div>
-                                </center>
-                            </div>
+
+                            <center className=''>
+                                <img
+                                    // onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}
+                                    className={`${data.img === mi ? 'white !important' : 'bg-dark'} w-100 text-white `}
+                                    src={data.img}
+                                    style={{ background: `${data.img === mi ? 'white !important' : ''}`, transform: 'scale(1.01)', maxHeight: '350px', height: '40vh', minWidth: '400px', maxWidth: "", width: '-webkit-fill-available', color: 'white', filter: `${data.img === mi ? 'invert(1)' : ''}` }}
+                                    alt={`Slide ${idx}`}
+                                    onClick={e => OpeninnewTab(data.img)}
+                                />
+                            </center>
+                            <div className='text-white p-3 border-0 rounded-0 mb-0 text-upper' style={{ position: "relative", marginTop: '-120px',fontSize:'',letterSpacing:"2px",background:"#000000b8"  }}>{data.info}</div>
                         </SwiperSlide>
                     ))}
 
@@ -140,14 +137,14 @@ function AutomaticImageSlider() {
                     ))}
                 </center> */}
                 </Swiper>
-                <div className="swiper-button-next slider-arrow py-5 "
+                {/* <div className="swiper-button-next slider-arrow py-5 "
                     //  hovright 
                     style={{
                         // height:"-webkit-fill-available", 
                         // background: '#ffffff52'
                     }}>
                     <ion-icon name="arrow-forward-outline"></ion-icon>
-                </div>
+                </div> */}
             </div>
             <div className='less1000px'>
                 <Swiper
@@ -174,11 +171,10 @@ function AutomaticImageSlider() {
                     }}
                 >
                     {colors.map((data, idx) => (
-                        <SwiperSlide className="slide bg-black text-white" key={idx}
+                        <SwiperSlide className="slide text-white" key={idx}
                             onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}
                         >
                             <center>
-                                <center className='text-white alert bg-black rounded-0 mb-0 text-upper'>{data.info}</center>
                                 <img
                                     // onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}
                                     className={`${data.img === mi ? 'white !important' : 'bg-dark'} w-100 text-white hoverimg `}
@@ -188,6 +184,7 @@ function AutomaticImageSlider() {
                                     onClick={e => OpeninnewTab(data.img)}
                                 />
                             </center>
+                            <div className='text-white alert rounded-0 mb-0 text-upper' style={{ position: "relative", top: '-30vh',fontSize:'3em',letterSpacing:"2px",background:"#000000b8" }}>{data.info}</div>
                         </SwiperSlide>
                     ))}
                     <div className="swiper-button-prev slider-arrow  p-2" style={{
