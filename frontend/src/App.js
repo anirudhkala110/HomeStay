@@ -5,6 +5,7 @@ import Homepage from './Assists/Homepage';
 import SupportiveNav from './Utils/SupportiveNav';
 import AboutPage from './Assists/AboutPage';
 import ContactPage from './Assists/ContactPage';
+import LandingPage from './Components/LandingPage';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Navbar />
           <Routes>
             <Route exact path='/' element={<Homepage />} />
+            <Route exact path='/home-stay-landing-page' element={<LandingPage />} />
             <Route exact path='/about' element={<AboutPage />} />
             <Route exact path='/contact' element={<ContactPage />} />
           </Routes>
