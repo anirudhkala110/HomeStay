@@ -29,3 +29,21 @@ html {
   background: rgb(255, 255, 255) !important;
   box-shadow: inset 0px 0px 8px black;
 }
+
+.less1000px {
+  display: block;
+}
+
+.show750px {
+  display: none;
+}
+
+@media screen and (max-width:1000px) {
+  .less1000px {
+    display: none;
+  }
+
+  .show750px {
+    display: block;
+  }
+}

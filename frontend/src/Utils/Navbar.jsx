@@ -1,12 +1,13 @@
 import React from 'react'
 import './Navbar.css'
 import { NavLink } from 'react-router-dom'
+import Logo from '../Images/Logo.png'
 const Navbar = () => {
     return (
         <nav id="navbar" className="navbar navbar-expand-lg bg-dark d-flex sticky-top justify-content-between align-items-center">
             <div className='d-flex align-items-center'>
                 <a className="navbar-brand" href="/"><figure className="mb-0 d-flex align-items-center justify-content-center">
-                    {/* <img src={Logo} style={{ maxHeight: '45px', maxWidth: '45px', filter: 'invert(1)' }} alt="RoboSlog" className="img-fluid" /> */}
+                    <img src={Logo} style={{ maxHeight: '45px', maxWidth: '45px', filter: 'invert(0)' }} alt="Home Stay" className="img-fluid rounded-circle" />
                     <div className='mx-2 text-white' style={{ fontFamily: 'Manrope', letterSpacing: '2px' }}>HOME STAY</div></figure>
                 </a>
             </div>
