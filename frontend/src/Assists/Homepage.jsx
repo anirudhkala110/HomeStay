@@ -7,7 +7,7 @@ import img13 from '../Images/img13.jpg'
 import img14 from '../Images/img14.jpg'
 import img15 from '../Images/img15.jpg'
 import img18 from '../Images/img18.jpg'
-import img25 from '../Images/img25.jpg'
+import hsptl from '../Images/Hospital.png'
 import Details from './Details'
 import './Main.css'
 import HomeDetails from './HomeDetails'
@@ -18,11 +18,11 @@ const Homepage = () => {
 
     return (
         <div className='container-fluid px-0' style={{ minWidth: "350px" }}>
-            <div className='less1000px align-items-center text-white px-2' style={{ background: "#000000a3", position: 'absolute', lineHeight: '4', top: '200px', zIndex: '100', width: '100%', minHeight: "320px", fontSize: "5rem", overflowX: 'auto !important' }}>
-                <TypewriterEffect texts={"Welcome to <b> Home Stay</b> . . ."} typingSpeed={50} pauseDuration={2000} />
+            <div className='less1000px align-items-center text-white px-2' style={{ background: "#000000a3", position: 'absolute', lineHeight: '4', top: '200px', zIndex: '100', width: '100%', minHeight: "320px", fontSize: "5rem" }}>
+                <TypewriterEffect texts={"Welcome to <b> Home Stay  at Nayar Valley</b> . . ."} typingSpeed={50} pauseDuration={2000} />
             </div>
-            <div className='show750px align-items-center text-white px-2' style={{ background: "#000000a3", position: 'absolute', lineHeight: '2.5', top: '200px', zIndex: '100', width: '-webkit-fill-available', minHeight: "160px", fontSize: "2rem", overflowX: 'auto !important' }}>
-                <TypewriterEffect texts={"Welcome to <b> Home Stay</b> . . ."} typingSpeed={50} pauseDuration={2000} />
+            <div className='show750px align-items-center text-white px-2' style={{ background: "#000000a3", position: 'absolute', lineHeight: '2.5', top: '200px', zIndex: '100', width: '-webkit-fill-available', minHeight: "160px", fontSize: "2rem" }}>
+                <TypewriterEffect texts={"Welcome to <b> Home Stay  at Nayar Valley</b> . . ."} typingSpeed={50} pauseDuration={2000} />
             </div>
             <div className=''>
                 <AutomaticImageSlider />
@@ -38,10 +38,8 @@ const Homepage = () => {
             </div>
             <div className='d-flex border align-items-start justify-content-center '>
                 <div className='border' style={{ minWidth: '350px' }}>
-                    <img src={img13} style={{ maxWidth: "100%" }} />
-                    <p>
-                        Nearby Loations for wandering in evening Time.
-                    </p>
+                    <img src={hsptl} style={{ maxWidth: "100%" }} />
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1296.6642496660997!2d78.69219255390766!3d29.944206701383614!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39099c4e50679007%3A0x36fd8fa768adc344!2sThe%20Hans%20Foundation%20General%20Hospital%20(THFGH)%2C%20Satpuli!5e0!3m2!1sen!2sin!4v1719912519677!5m2!1sen!2sin" width="600" height="450"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>

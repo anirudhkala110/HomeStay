@@ -9,7 +9,7 @@ import LandingPage from './Components/LandingPage';
 
 function App() {
   return (
-    <div className="container-fluid min-vh-100 px-0" style={{ minWidth: "350px" }}>
+    <div className="container-fluid min-vh-100 px-0" style={{ minWidth: "400px" }}>
       <div className=''>
         <Router>
           <SupportiveNav />

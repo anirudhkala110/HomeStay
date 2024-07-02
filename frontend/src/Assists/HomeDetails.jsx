@@ -13,7 +13,7 @@ const HomeDetails = () => {
     return (
         <div className='bg-white min-vh-100 container-fluid'>
             <div className='row py-2'>
-                <center className='bg-dark text-white fw-bolder' style={{ fontSize: '3pc' }}>
+                <center className='bg-dark text-white fw-bolder' style={{ fontSize: '72px' }}>
                     Room Information
                 </center>
                 <div className='col-12 my-2'>
@@ -24,17 +24,17 @@ const HomeDetails = () => {
                     <img className='handleImage3' src={img1} style={{ width: '30%', marginTop: '-10%', position: 'relative', marginLeft: "8%", marginRight: '70%', zIndex: '2' }} onClick={e => handleOpenNewTab(img1)} />
                 </div>
                 <div className='col-sm-12 col-lg-6 container my-3'>
-                    <h1><b>Welcome </b>to <strong>Home Stay </strong></h1>
+                    <h1><b>Welcome </b>to <strong> Home Stay at Nayar Valley </strong></h1>
                     <div className=''>
                         <h3>Overview</h3>
                         <p>
-                            Nestled between majestic mountains and serene rivers, our home stay offers a perfect blend of natural beauty and modern comfort. Ideal for nature lovers, adventure seekers, and those looking to escape the hustle and bustle of city life, this retreat promises an unforgettable experience.
+                            Nestled between majestic mountains and serene rivers, our  Home Stay at Nayar Valley offers a perfect blend of natural beauty and modern comfort. Ideal for nature lovers, adventure seekers, and those looking to escape the hustle and bustle of city life, this retreat promises an unforgettable experience.
                         </p>
                     </div>
                     <div className=''>
                         <h3>Accommodations</h3>
                         <p>
-                            Our home stay features a variety of accommodation options to suit your needs. Each room is designed with comfort and relaxation in mind, offering stunning views of the surrounding landscapes.
+                            Our  Home Stay at Nayar Valley features a variety of accommodation options to suit your needs. Each room is designed with comfort and relaxation in mind, offering stunning views of the surrounding landscapes.
                             <ul>
                                 <li><b>Deluxe Rooms: </b>Spacious and well-appointed with cozy beds, en-suite bathrooms, and private balconies overlooking the mountains or rivers.</li>
                                 <li><b>Cottages: </b>Private cottages nestled amidst lush greenery, perfect for a secluded getaway.</li>

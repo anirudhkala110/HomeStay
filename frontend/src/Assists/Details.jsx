@@ -49,8 +49,8 @@ const Details = () => {
     };
 
     return (
-        <div className='py-3 my-1 EnvInfo' style={{ height: "-webkit-fill-available" }}>
-            <center className='fs-2 my-2 fw-bolder bg-dark text-white'>
+        <div className='my-1 EnvInfo' style={{ height: "-webkit-fill-available" }}>
+            <center className='fw-bolder mb-2 bg-black text-white' style={{fontSize: '72px'}}>
                 Environmental Information
             </center>
             <div className='row col-12'>
