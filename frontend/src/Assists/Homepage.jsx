@@ -12,15 +12,16 @@ import Details from './Details'
 import './Main.css'
 import HomeDetails from './HomeDetails'
 import TypewriterEffect from './TypeWriter'
+import WhyChooseUs from './WhyChooseUs'
 
 const Homepage = () => {
 
     return (
         <div className='container-fluid px-0' style={{ minWidth: "350px" }}>
-            <div className='less1000px align-items-center text-white px-2' style={{ background:"#000000a3",position: 'absolute',lineHeight:'4', top: '200px', zIndex: '100', width: '100%', minHeight: "320px", fontSize: "5rem",overflowX:'auto !important' }}>
+            <div className='less1000px align-items-center text-white px-2' style={{ background: "#000000a3", position: 'absolute', lineHeight: '4', top: '200px', zIndex: '100', width: '100%', minHeight: "320px", fontSize: "5rem", overflowX: 'auto !important' }}>
                 <TypewriterEffect texts={"Welcome to <b> Home Stay</b> . . ."} typingSpeed={50} pauseDuration={2000} />
             </div>
-            <div className='show750px align-items-center text-white px-2' style={{ background:"#000000a3",position: 'absolute',lineHeight:'2.5', top: '200px', zIndex: '100', width: '-webkit-fill-available', minHeight: "160px", fontSize: "2rem",overflowX:'auto !important' }}>
+            <div className='show750px align-items-center text-white px-2' style={{ background: "#000000a3", position: 'absolute', lineHeight: '2.5', top: '200px', zIndex: '100', width: '-webkit-fill-available', minHeight: "160px", fontSize: "2rem", overflowX: 'auto !important' }}>
                 <TypewriterEffect texts={"Welcome to <b> Home Stay</b> . . ."} typingSpeed={50} pauseDuration={2000} />
             </div>
             <div className=''>
@@ -31,6 +32,9 @@ const Homepage = () => {
             </div>
             <div>
                 <Details />
+            </div>
+            <div>
+                <WhyChooseUs />
             </div>
             <div className='d-flex border align-items-start justify-content-center '>
                 <div className='border' style={{ minWidth: '350px' }}>

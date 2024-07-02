@@ -3,10 +3,15 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+.whyChooseUsBG {
+    background-image: url(../Images/EnvInfoBG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 .handleImage,
 .handleImage2,
-.handleImage3 {
+.handleImage3,.handleImage4 {
     border-top-left-radius: 10px;
     border-top-right-radius: 0px;
     border-bottom-left-radius: 0px;
@@ -35,6 +40,11 @@
 .handleImage2:hover,
 .handleImage3:hover {
     box-shadow: 5px 5px 10px 0px black;
+    transform: scale(1.02);
+    animation: zoomingEffect linear;
+}
+.handleImage4:hover {
+    box-shadow: 0px 0px 15px 5px rgb(255, 255, 255);
     transform: scale(1.02);
     animation: zoomingEffect linear;
 }
