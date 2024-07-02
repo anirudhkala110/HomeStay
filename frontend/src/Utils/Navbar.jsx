@@ -11,25 +11,49 @@ const Navbar = () => {
                     <div className='mx-2 text-white' style={{ fontFamily: 'Manrope', letterSpacing: '2px' }}>HOME STAY</div></figure>
                 </a>
             </div>
-            <div className="d-flex align-items-center justify-content-between me-2" style={{ minWidth: '250px', position: 'relative', zIndex: "1000", width: "5vw" }} id="navbarSupportedContent">
-                <div>
-                    <a className="nav-item text-decoration-none text-white fw-bold" style={{ fontSize: '18px' }}>
-                        <NavLink className="nav-link" to="/">
-                            <i class="bi bi-house show750px"></i><p className='less1000px'>Home</p>
-                        </NavLink>
-                    </a>
-                </div>
-                <div>
-                    <a className="nav-item text-decoration-none text-white fw-bold" style={{ fontSize: '18px' }}>
-                        <NavLink className="nav-link" to="/about"><i class="bi bi-person show750px"></i><p className='less1000px'>About</p></NavLink>
-                    </a>
-                </div>
-                <div>
-                    <a className="nav-item text-decoration-none text-white fw-bold" style={{ fontSize: '18px' }}>
-                        <NavLink className="nav-link" to="/contact"><i class="bi bi-person-lines-fill show750px"></i><p className='less1000px'>Contact Us</p></NavLink>
-                    </a>
-                </div>
+            <div className='less450px'>
+                <div className="d-flex align-items-center justify-content-between me-2" style={{ minWidth: '350px', position: 'relative', zIndex: "1000", width: "5vw" }} id="navbarSupportedContent">
+                    <div>
+                        <a className="nav-item text-decoration-none text-white fw-bold" style={{ fontSize: '18px' }}>
+                            <NavLink className="nav-link d-flex  justify-content-between" to="/">
+                                <i class="bi bi-house  me-2"></i><p className=''>Home</p>
+                            </NavLink>
+                        </a>
+                    </div>
+                    <div>
+                        <a className="nav-item text-decoration-none text-white fw-bold" style={{ fontSize: '18px' }}>
+                            <NavLink className="nav-link d-flex  justify-content-between" to="/about"><i class="bi bi-person me-2"></i><p className=''>About</p></NavLink>
+                        </a>
+                    </div>
+                    <div>
+                        <a className="nav-item text-decoration-none text-white fw-bold" style={{ fontSize: '18px' }}>
+                            <NavLink className="nav-link d-flex  justify-content-between" to="/contact"><i class="bi bi-person-lines-fill me-2 "></i><p className=''>Contact Us</p></NavLink>
+                        </a>
+                    </div>
 
+                </div>
+            </div>
+            <div className='show450px'>
+                <div className="d-flex align-items-center justify-content-between me-3" style={{ minWidth: '100px', position: 'relative', zIndex: "1000", width: "5vw" }} id="navbarSupportedContent">
+                    <div>
+                        <a className="nav-item text-decoration-none text-white fw-bold" style={{ fontSize: '18px' }}>
+                            <NavLink className="nav-link" to="/">
+                                <i class="bi bi-house"></i>
+                            </NavLink>
+                        </a>
+                    </div>
+                    <div>
+                        <a className="nav-item text-decoration-none text-white fw-bold" style={{ fontSize: '18px' }}>
+                            <NavLink className="nav-link" to="/about"><i class="bi bi-person"></i></NavLink>
+                        </a>
+                    </div>
+                    <div>
+                        <a className="nav-item text-decoration-none text-white fw-bold" style={{ fontSize: '18px' }}>
+                            <NavLink className="nav-link" to="/contact"><i class="bi bi-person-lines-fill"></i></NavLink>
+                        </a>
+                    </div>
+
+                </div>
             </div>
         </nav>
     )
