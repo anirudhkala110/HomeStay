@@ -4,7 +4,9 @@
     background-repeat: no-repeat;
 }
 
-.handleImage {
+.handleImage,
+.handleImage2,
+.handleImage3 {
     border-top-left-radius: 10px;
     border-top-right-radius: 0px;
     border-bottom-left-radius: 0px;
@@ -12,9 +14,37 @@
     transform: scale(0.99);
     transition: .3s ease-in-out;
     cursor: pointer;
-    box-shadow: 5px 5px 10px 0px black;
 }
 
-.handleImage:hover {
+.handleImage {
+    transform: rotate(0deg);
+    max-width: 1200px;
+}
+
+.handleImage2 {
+    transform: rotate(-2deg);
+    max-width: 400px;
+}
+
+.handleImage3 {
+    transform: rotate(2deg);
+    max-width: 400px;
+}
+
+.handleImage:hover,
+.handleImage2:hover,
+.handleImage3:hover {
+    box-shadow: 5px 5px 10px 0px black;
     transform: scale(1.02);
+    animation: zoomingEffect linear;
+}
+
+@keyframes zoomingEffect {
+    0% {
+        transform: rotate(-12deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
 }
