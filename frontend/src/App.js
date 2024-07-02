@@ -10,18 +10,20 @@ import Footer from './Utils/Footer';
 
 function App() {
   return (
-    <div className="min-vh-100 px-0" style={{ minWidth: "400px" }}>
+    <div className="px-0" style={{ minWidth: "400px" }}>
       <div className=''>
         <Router>
-          <SupportiveNav />
           <Navbar />
+          <div className='mt-5 py-3 bg-black'>
+            <SupportiveNav />
+          </div>
           <Routes>
             <Route exact path='/' element={<Homepage />} />
             <Route exact path='/home-stay-landing-page' element={<LandingPage />} />
             <Route exact path='/about' element={<AboutPage />} />
             <Route exact path='/contact' element={<ContactPage />} />
           </Routes>
-          <Footer/>
+          <Footer />
         </Router>
       </div>
     </div>

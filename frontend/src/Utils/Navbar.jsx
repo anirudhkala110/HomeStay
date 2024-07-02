@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 import Logo from '../Images/Logo.png'
 const Navbar = () => {
     return (
-        <nav id="navbar" className="navbar navbar-expand-lg bg-black d-flex sticky-top justify-content-between align-items-center">
+        <nav id="navbar" className="navbar navbar-expand-lg bg-black d-flex fixed-top justify-content-between align-items-center">
             <div className='d-flex align-items-center'>
                 <a className="navbar-brand" href="/"><figure className="mb-0 d-flex align-items-center justify-content-center">
                     <img src={Logo} style={{ maxHeight: '45px', maxWidth: '45px', filter: 'invert(0)' }} alt="Home Stay" className="img-fluid rounded-circle" />
@@ -15,19 +15,19 @@ const Navbar = () => {
                 <div className="d-flex align-items-center justify-content-between me-2" style={{ minWidth: '350px', position: 'relative', zIndex: "1000", width: "5vw" }} id="navbarSupportedContent">
                     <div>
                         <a className="nav-item text-decoration-none text-white fw-bold" style={{ fontSize: '18px' }}>
-                            <NavLink className="nav-link d-flex  justify-content-between" to="/">
-                                <i class="bi bi-house  me-2"></i><p className=''>Home</p>
+                            <NavLink className="nav-link d-flex align-items-center justify-content-between" to="/">
+                                <i class="bi bi-house  me-2"></i><div className='p-0'>Home</div>
                             </NavLink>
                         </a>
                     </div>
                     <div>
                         <a className="nav-item text-decoration-none text-white fw-bold" style={{ fontSize: '18px' }}>
-                            <NavLink className="nav-link d-flex  justify-content-between" to="/about"><i class="bi bi-person me-2"></i><p className=''>About</p></NavLink>
+                            <NavLink className="nav-link d-flex align-items-center justify-content-between" to="/about"><i class="bi bi-person me-2"></i><div className='p-0'>About</div></NavLink>
                         </a>
                     </div>
                     <div>
                         <a className="nav-item text-decoration-none text-white fw-bold" style={{ fontSize: '18px' }}>
-                            <NavLink className="nav-link d-flex  justify-content-between" to="/contact"><i class="bi bi-person-lines-fill me-2 "></i><p className=''>Contact Us</p></NavLink>
+                            <NavLink className="nav-link d-flex align-items-center justify-content-between" to="/contact"><i class="bi bi-person-lines-fill me-2 "></i><div className='p-0'>Contact Us</div></NavLink>
                         </a>
                     </div>
 
