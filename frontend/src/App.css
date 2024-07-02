@@ -47,6 +47,23 @@ html {
     display: block;
   }
 }
+.less450px {
+  display: block;
+}
+
+.show450px {
+  display: none;
+}
+
+@media screen and (max-width:550px) {
+  .less450px {
+    display: none;
+  }
+
+  .show450px {
+    display: block;
+  }
+}
 
 .hoverimg{
   transition: 0.3s ease-in-out !important;

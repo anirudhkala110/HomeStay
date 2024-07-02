@@ -15,18 +15,18 @@ const Navbar = () => {
                 <div>
                     <a className="nav-item text-decoration-none text-white fw-bold" style={{ fontSize: '18px' }}>
                         <NavLink className="nav-link" to="/">
-                            Home
+                            <i class="bi bi-house show750px"></i><p className='less1000px'>Home</p>
                         </NavLink>
                     </a>
                 </div>
                 <div>
                     <a className="nav-item text-decoration-none text-white fw-bold" style={{ fontSize: '18px' }}>
-                        <NavLink className="nav-link" to="/about">About</NavLink>
+                        <NavLink className="nav-link" to="/about"><i class="bi bi-person show750px"></i><p className='less1000px'>About</p></NavLink>
                     </a>
                 </div>
                 <div>
                     <a className="nav-item text-decoration-none text-white fw-bold" style={{ fontSize: '18px' }}>
-                        <NavLink className="nav-link" to="/contact">Contact Us</NavLink>
+                        <NavLink className="nav-link" to="/contact"><i class="bi bi-person-lines-fill show750px"></i><p className='less1000px'>Contact Us</p></NavLink>
                     </a>
                 </div>
 

@@ -121,7 +121,7 @@ function AutomaticImageSlider() {
                                     onClick={e => OpeninnewTab(data.img)}
                                 />
                             </center>
-                            <div className='text-white p-3 border-0 rounded-0 mb-0 text-upper' style={{ position: "relative", marginTop: '-120px',fontSize:'',letterSpacing:"2px",background:"#000000b8"  }}>{data.info}</div>
+                            <div className='text-white p-3 border-0 rounded-0 mb-0 text-upper' style={{ position: "relative", marginTop: '-120px', fontSize: '', letterSpacing: "2px", background: "rgba(0 0 0 / 46%)" }}>{data.info}</div>
                         </SwiperSlide>
                     ))}
 
@@ -184,7 +184,7 @@ function AutomaticImageSlider() {
                                     onClick={e => OpeninnewTab(data.img)}
                                 />
                             </center>
-                            <div className='text-white alert rounded-0 mb-0 text-upper' style={{ position: "relative", top: '-30vh',fontSize:'3em',letterSpacing:"2px",background:"#000000b8" }}>{data.info}</div>
+                            <div className='text-white alert rounded-0 mb-0 text-upper' style={{ position: "relative", top: '-30vh', fontSize: '3em', letterSpacing: "2px", background: "rgba(0 0 0 / 46%)" }}>{data.info}</div>
                         </SwiperSlide>
                     ))}
                     <div className="swiper-button-prev slider-arrow  p-2" style={{

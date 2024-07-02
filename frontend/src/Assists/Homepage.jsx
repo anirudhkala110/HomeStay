@@ -13,8 +13,8 @@ import Details from './Details'
 const Homepage = () => {
 
     return (
-        <div className='container-fluid px-0'>
-            <div>
+        <div className='container-fluid px-0' style={{ minWidth: "350px" }}>
+            <div className=''>
                 <AutomaticImageSlider />
             </div>
             <div>
@@ -22,7 +22,7 @@ const Homepage = () => {
             </div>
             <div className='d-flex border align-items-start justify-content-center '>
                 <div className='border' style={{ minWidth: '350px' }}>
-                    <img src={img13} style={{ maxWidth: "450px" }} />
+                    <img src={img13} style={{ maxWidth: "100%" }} />
                     <p>
                         Nearby Loations for wandering in evening Time.
                     </p>
