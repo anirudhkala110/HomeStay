@@ -9,6 +9,8 @@ import img15 from '../Images/img15.jpg'
 import img18 from '../Images/img18.jpg'
 import img25 from '../Images/img25.jpg'
 import Details from './Details'
+import './Main.css'
+import HomeDetails from './HomeDetails'
 
 const Homepage = () => {
 
@@ -16,6 +18,9 @@ const Homepage = () => {
         <div className='container-fluid px-0' style={{ minWidth: "350px" }}>
             <div className=''>
                 <AutomaticImageSlider />
+            </div>
+            <div className='bg-white'>
+                <HomeDetails />
             </div>
             <div>
                 <Details />

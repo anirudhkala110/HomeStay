@@ -49,14 +49,14 @@ const Details = () => {
     };
 
     return (
-        <div className='my-2' style={{ height: "-webkit-fill-available" }}>
-            <center className='fs-2 fw-bolder my-3'>
+        <div className='py-3 my-1 EnvInfo' style={{ height: "-webkit-fill-available" }}>
+            <center className='fs-2 my-2 fw-bolder bg-dark text-white'>
                 Environmental Information
             </center>
             <div className='row col-12'>
                 {images.map((data, idx) => (
                     <div className='d-flex align-items-start justify-content-center col-sm-12 col-xs-12 col-md-6 col-lg-3 col-xxl-3 col-xl-3 mb-2' key={idx}>
-                        <div className='border' style={{ minWidth: '300px' }}>
+                        <div className='border bg-dark' style={{ minWidth: '300px' }}>
                             <img
                                 src={data.img}
                                 onClick={() => OpeninnewTab(data.img)}
@@ -65,7 +65,7 @@ const Details = () => {
                                 onMouseEnter={() => handleMouseEnter(idx)}
                                 onMouseLeave={handleMouseLeave}
                             />
-                            <div className='px-2' style={{maxWidth:'320px'}}>
+                            <div className='px-2 text-white' style={{maxWidth:'320px'}}>
                                 {data.data}
                             </div>
                         </div>
