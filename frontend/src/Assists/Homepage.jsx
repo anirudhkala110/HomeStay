@@ -17,7 +17,7 @@ import WhyChooseUs from './WhyChooseUs'
 const Homepage = () => {
     const [mapShow, setMapShow] = useState(false)
     return (
-        <div className=' px-0 min-vh-100' style={{ minWidth: "350px" }}>
+        <div className=' px-0 min-vh-100' style={{ minWidth:"400px" }}>
             <div className='less1000px align-items-center text-white px-2' style={{ background: "#000000a3", position: 'absolute', lineHeight: '4', top: '200px', zIndex: '100', width: '100%', minHeight: "320px", fontSize: "5rem" }}>
                 <TypewriterEffect texts={"Welcome to <b> Home Stay  at Nayar Valley</b> . . ."} typingSpeed={50} pauseDuration={2000} />
             </div>

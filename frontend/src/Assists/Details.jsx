@@ -49,11 +49,11 @@ const Details = () => {
     };
 
     return (
-        <div className='my-1 EnvInfo' style={{ height: "-webkit-fill-available" }}>
-            <center className='fw-bolder mb-2 bg-black text-white' style={{fontSize: '72px'}}>
+        <div className='my-1 EnvInfo' style={{ height: "-webkit-fill-available" ,minWidth:"400px"}}>
+            <center className='fw-bolder fs-1 mb-2 bg-black text-white' style={{ fontSize: '' }}>
                 Environmental Information
             </center>
-            <div className='row col-12'>
+            <div className='row col-12 px-2'>
                 {images.map((data, idx) => (
                     <div className='d-flex align-items-start justify-content-center col-sm-12 col-xs-12 col-md-6 col-lg-3 col-xxl-3 col-xl-3 mb-2' key={idx}>
                         <div className='border bg-dark' style={{ minWidth: '300px' }}>
@@ -65,7 +65,7 @@ const Details = () => {
                                 onMouseEnter={() => handleMouseEnter(idx)}
                                 onMouseLeave={handleMouseLeave}
                             />
-                            <div className='px-2 text-white' style={{maxWidth:'320px'}}>
+                            <div className='px-2 text-white' style={{ maxWidth: '320px' }}>
                                 {data.data}
                             </div>
                         </div>

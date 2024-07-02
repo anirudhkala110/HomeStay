@@ -11,9 +11,9 @@ const HomeDetails = () => {
         }
     }
     return (
-        <div className='bg-white min-vh-100 container-fluid'>
+        <div className='bg-white min-vh-100 container-fluid' style={{ minWidth: "400px" }}>
             <div className='row'>
-                <center className='bg-dark text-white fw-bolder' style={{ fontSize: '72px' }}>
+                <center className='bg-dark text-white fw-bolder fs-1' style={{ fontSize: '' }}>
                     Room Information
                 </center>
                 <div className='col-12 my-2'>

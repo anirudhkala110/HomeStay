@@ -2,7 +2,7 @@ import React from 'react'
 
 const AboutPage = () => {
   return (
-    <div className='min-vh-100'>AboutPage</div>
+    <div className='min-vh-100' style={{minWidth:"400px"}}>AboutPage</div>
   )
 }
 
