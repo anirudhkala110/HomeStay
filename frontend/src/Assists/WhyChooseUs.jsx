@@ -10,7 +10,7 @@ const WhyChooseUs = () => {
             window.open(urlGet, "__blank")
         }
     }
-    const text = "<div><ul style={{listStyle:'nonw'}}><li><b>Stunning Location: </b>Our home stay is uniquely situated to offer panoramic views and easy access to both mountains and rivers.</li><li><b>Personalized Service: </b>Our friendly and attentive staff are dedicated to making your stay as comfortable and memorable as possible.</li><li><b>Eco-Friendly Practices: </b>We are committed to sustainable tourism, using eco-friendly practices to minimize our impact on the environment.</li><li><b>Relaxation and Adventure: </b>Whether you're looking to relax in nature or seek adventure, our home stay provides the perfect setting for both.</li></ul></div>"
+    const text = "<div className='fs-2'><ul style={{listStyle:'none'}}><li><b>Stunning Location: </b>Our home stay is uniquely situated to offer panoramic views and easy access to both mountains and rivers.</li><li><b>Personalized Service: </b>Our friendly and attentive staff are dedicated to making your stay as comfortable and memorable as possible.</li><li><b>Eco-Friendly Practices: </b>We are committed to sustainable tourism, using eco-friendly practices to minimize our impact on the environment.</li><li><b>Relaxation and Adventure: </b>Whether you're looking to relax in nature or seek adventure, our home stay provides the perfect setting for both.</li></ul></div>"
     return (
         <div className='bg-white text-white min-vh-100 container-fluid whyChooseUsBG'>
             <div className='row'>
@@ -20,8 +20,8 @@ const WhyChooseUs = () => {
                 <div className='col-12 my-2'>
                     <img className='handleImage4' src={img11} style={{ width: '30%', marginBottom: '-10%', position: 'relative', marginRight: '0%', marginLeft: '70%', zIndex: '1' }} onClick={e => handleOpenNewTab(img11)} />
                     <img className='handleImage4' src={img12} style={{ width: '30%', marginLeft: '50%', marginTop: "", marginRight: '', position: 'relative', zIndex: '2' }} onClick={e => handleOpenNewTab(img12)} />
-                    <img className='handleImage4' src={img12} style={{ width: '30%', marginLeft: '25%', marginTop: "-10%", marginRight: '', position: 'relative', zIndex: '3' }} onClick={e => handleOpenNewTab(img12)} />
-                    <img className='handleImage4' src={img1} style={{ width: '30%', marginTop: '-10%', position: 'relative', marginLeft: "8%", marginRight: '70%', zIndex: '4' }} onClick={e => handleOpenNewTab(img1)} />
+                    <img className='handleImage4' src={img1} style={{ width: '30%', marginLeft: '25%', marginTop: "-10%", marginRight: '', position: 'relative', zIndex: '3' }} onClick={e => handleOpenNewTab(img1)} />
+                    <img className='handleImage4' src={img12} style={{ width: '30%', marginTop: '-10%', position: 'relative', marginLeft: "8%", marginRight: '70%', zIndex: '4' }}  onClick={e => handleOpenNewTab(img12)} />
                 </div>
                 <div className='col-sm-12 col-lg-6 container my-3'>
                     {/* <h1 className='text-upper fw-bolder' style={{ fontSize: '78px' }}></h1> */}
