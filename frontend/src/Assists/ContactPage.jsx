@@ -2,7 +2,11 @@ import React from 'react'
 
 const ContactPage = () => {
   return (
-    <div>ContactPage</div>
+    <div className='min-vh-100'>
+      <div className='container'>
+        Address
+      </div>
+    </div>
   )
 }
 

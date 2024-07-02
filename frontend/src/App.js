@@ -6,10 +6,11 @@ import SupportiveNav from './Utils/SupportiveNav';
 import AboutPage from './Assists/AboutPage';
 import ContactPage from './Assists/ContactPage';
 import LandingPage from './Components/LandingPage';
+import Footer from './Utils/Footer';
 
 function App() {
   return (
-    <div className="container-fluid min-vh-100 px-0" style={{ minWidth: "400px" }}>
+    <div className="min-vh-100 px-0" style={{ minWidth: "400px" }}>
       <div className=''>
         <Router>
           <SupportiveNav />
@@ -20,6 +21,7 @@ function App() {
             <Route exact path='/about' element={<AboutPage />} />
             <Route exact path='/contact' element={<ContactPage />} />
           </Routes>
+          <Footer/>
         </Router>
       </div>
     </div>

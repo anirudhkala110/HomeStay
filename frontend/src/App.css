@@ -34,7 +34,15 @@ html {
   display: block;
 }
 
+.showHptl {
+  display: block;
+}
+
 .show750px {
+  display: none;
+}
+
+.hidehspital {
   display: none;
 }
 
@@ -43,10 +51,19 @@ html {
     display: none;
   }
 
+  .showHptl {
+    display: none;
+  }
+
+  .hidehspital {
+    display: block;
+  }
+
   .show750px {
     display: block;
   }
 }
+
 .less450px {
   display: block;
 }
@@ -65,9 +82,10 @@ html {
   }
 }
 
-.hoverimg{
+.hoverimg {
   transition: 0.3s ease-in-out !important;
 }
-.hoverimg:hover{
+
+.hoverimg:hover {
   transform: scale(1.1) !important;
 }
