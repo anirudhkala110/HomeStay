@@ -57,7 +57,7 @@ const Details = () => {
             </center>
             <div className='row col-12 px-2'>
                 {images.map((data, idx) => (
-                    <div className='d-flex border bg-dark align-items-start justify-content-center col-sm-12 col-xs-12 col-md-6 col-lg-3 col-xxl-3 col-xl-4 mb-2' key={idx}>
+                    <div className='d-flex border bg-dark align-items-start justify-content-center col-sm-12 col-xs-12 col-md-6 col-lg-4 col-xxl-3 col-xl-4 mb-2' key={idx}>
                         <div className='p-2' style={{ minWidth: '300px' }}>
                             <img
 
