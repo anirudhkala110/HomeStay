@@ -12,7 +12,8 @@ const WhyChooseUs = () => {
     }
     const text = "<div className='fs-2'><ul style={{listStyle:'none'}}><li><b>Stunning Location: </b>Our  Home Stay at Nayar Valley is uniquely situated to offer panoramic views and easy access to both mountains and rivers.</li><li><b>Personalized Service: </b>Our friendly and attentive staff are dedicated to making your stay as comfortable and memorable as possible.</li><li><b>Eco-Friendly Practices: </b>We are committed to sustainable tourism, using eco-friendly practices to minimize our impact on the environment.</li><li><b>Relaxation and Adventure: </b>Whether you're looking to relax in nature or seek adventure, our  Home Stay at Nayar Valley provides the perfect setting for both.</li></ul></div>"
     return (
-        <div className='bg-white text-white container-fluid whyChooseUsBG' style={{minHeight:'',minWidth:"400px"}}>
+        // <div className='bg-white text-white container-fluid whyChooseUsBG' style={{minHeight:'',minWidth:"400px"}}>
+        <div className='text-white container-fluid ' style={{minHeight:'',minWidth:"400px"}}>
             <div className='row'>
                 <center className='bg-black text-white fw-bolder' style={{ fontSize: '72px' }}>
                     Why Choose Us ?

@@ -24,10 +24,10 @@ const Homepage = () => {
             <div className='show750px align-items-center text-white px-2' style={{ background: "#000000a3", position: 'absolute', lineHeight: '2.5', top: '200px', zIndex: '100', width: '-webkit-fill-available', minHeight: "160px", fontSize: "2rem" }}>
                 <TypewriterEffect texts={"Welcome to <b> Home Stay  at Nayar Valley</b> . . ."} typingSpeed={50} pauseDuration={2000} />
             </div>
-            <div className='bg-black'>
+            <div className=''>
                 <AutomaticImageSlider />
             </div>
-            <div className='bg-white'>
+            <div className=''>
                 <HomeDetails />
             </div>
             <div className=''>
@@ -36,7 +36,7 @@ const Homepage = () => {
             <div className=''>
                 <WhyChooseUs />
             </div>
-            <div className='bg-black' style={{ minWidth: '350px' }}>
+            <div className='' style={{ minWidth: '350px' }}>
                 <div style={{ background: "rgba(0 0 0 / 80%)",  zIndex:'100',position: "absolute" ,width:"100%"}}>
                     <center className='text-white py-2 showHptl' style={{ fontSize: '3em'}}>
                         Nearest Hospital - <b>The Hans Foundation General Hospital (THFGH)</b>, Satpuli

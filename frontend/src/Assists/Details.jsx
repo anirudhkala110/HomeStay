@@ -49,7 +49,8 @@ const Details = () => {
     };
 
     return (
-        <div className='my-1 EnvInfo' style={{ height: "-webkit-fill-available" ,minWidth:"400px"}}>
+        <div className='my-1' style={{ height: "-webkit-fill-available" ,minWidth:"400px"}}>
+        {/* <div className='my-1 EnvInfo' style={{ height: "-webkit-fill-available" ,minWidth:"400px"}}> */}
             <center className='fw-bolder fs-1 mb-2 bg-black text-white' style={{ fontSize: '' }}>
                 Environmental Information
             </center>
