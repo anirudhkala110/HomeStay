@@ -21,7 +21,7 @@ function App() {
           <Routes>
             <Route exact path='/' element={<Homepage />} />
             <Route exact path='/home-stay-landing-page' element={<LandingPage />} />
-            <Route exact path='/about' element={<AboutPage />} />
+            {/* <Route exact path='/about' element={<AboutPage />} /> */}
             <Route exact path='/contact' element={<ContactPage />} />
             <Route path='*' element={<PageNotFound />} />
           </Routes>

@@ -11,7 +11,8 @@
 
 /* Supportive Nav */
 .supportiveNavBG {
-    background: linear-gradient(90deg, rgb(62, 160, 226), rgb(178, 210, 247), rgba(94, 199, 234, 0.442));
+    /* background: linear-gradient(90deg, rgb(62, 160, 226), rgb(62, 160, 226), rgb(62, 160, 226)); */
+    background: white;
     font-weight: bolder;
     letter-spacing: 2px;
 }
