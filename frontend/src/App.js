@@ -7,6 +7,7 @@ import AboutPage from './Assists/AboutPage';
 import ContactPage from './Assists/ContactPage';
 import LandingPage from './Components/LandingPage';
 import Footer from './Utils/Footer';
+import PageNotFound from './Components/PageNotFound';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <Route exact path='/home-stay-landing-page' element={<LandingPage />} />
             <Route exact path='/about' element={<AboutPage />} />
             <Route exact path='/contact' element={<ContactPage />} />
+            <Route path='*' element={<PageNotFound />} />
           </Routes>
           <Footer />
         </Router>
