@@ -49,7 +49,7 @@ const Images = () => {
         }
     }
     return (
-        <div className='' style={{ height: '100vh',WebkitScroll:'0px' }}>
+        <div className='' style={{ height: '' }}>
             <center className='fs-1 w-100 text-white pb-3' style={{ background: 'rgb(0 0 0 /75%)' }}>Images</center>
             <center><p>House and Suroundings</p></center>
             <div className='container-fluid text-white' style={{ background: 'rgb(0 0 0 / 45%)' }}>
@@ -58,7 +58,7 @@ const Images = () => {
                         images.map((data, idx) => (
                             <div className=' col-sm-12 col-md-6 col-lg-4 p-2 col-xxl-3 col-xs-12 col-xl-3 ' key={idx}>
                                 <div className='border' style={{ width: '-webkit-fill-available' }}>
-                                    <img className='galleryHover' src={data} style={{ width: "-webkit-fill-available", height: "350px", minWidth: '340px' }} onClick={e => handleOpenNewTab(data)} />
+                                    {data ? <img className='galleryHover' src={data} style={{ width: "-webkit-fill-available", height: "350px", minWidth: '340px', }} onClick={e => handleOpenNewTab(data)} /> : <div className='Loading' style={{ background: '', width: "-webkit-fill-available", height: "350px", minWidth: '340px' }}></div>}
                                 </div>
                             </div>
                         ))

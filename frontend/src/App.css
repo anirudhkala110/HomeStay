@@ -52,6 +52,26 @@ html {
   transition: .3s ease-in-out;
 }
 
+.Loading {
+  cursor: progress;
+  background: rgba(191, 194, 196, 0.677);
+  animation: animate 1s infinite linear;
+}
+
+@keyframes animate {
+  0% {
+    background: rgba(191, 194, 196, 0.677);
+  }
+
+  50% {
+    background: rgb(213, 214, 215);
+  }
+
+  100% {
+    background: rgba(191, 194, 196, 0.677);
+  }
+}
+
 .galleryHover:hover {
   opacity: 1;
   transform: scale(1);
