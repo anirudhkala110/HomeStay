@@ -12,7 +12,7 @@ const Navbar = () => {
                 </a>
             </div>
             <div className='less450px'>
-                <div className="d-flex align-items-center justify-content-between me-2" style={{ minWidth: '250px', position: 'relative', zIndex: "1000", width: "5vw" }} id="navbarSupportedContent">
+                <div className="d-flex align-items-center justify-content-between me-2" style={{ minWidth: '350px', position: 'relative', zIndex: "1000", width: "5vw" }} id="navbarSupportedContent">
                     <div>
                         <a className="nav-item text-decoration-none text-white fw-bold" style={{ fontSize: '18px' }}>
                             <NavLink className="nav-link d-flex align-items-center justify-content-between" to="/">
@@ -20,11 +20,11 @@ const Navbar = () => {
                             </NavLink>
                         </a>
                     </div>
-                    {/* <div>
+                    <div>
                         <a className="nav-item text-decoration-none text-white fw-bold" style={{ fontSize: '18px' }}>
-                            <NavLink className="nav-link d-flex align-items-center justify-content-between" to="/about"><i class="bi bi-person me-2"></i><div className='p-0'>About</div></NavLink>
+                            <NavLink className="nav-link d-flex align-items-center justify-content-between" to="/gallery"><i class="bi bi-images me-2"></i><div className='p-0'>Gallery</div></NavLink>
                         </a>
-                    </div> */}
+                    </div>
                     <div>
                         <a className="nav-item text-decoration-none text-white fw-bold" style={{ fontSize: '18px' }}>
                             <NavLink className="nav-link d-flex align-items-center justify-content-between" to="/contact"><i class="bi bi-person-lines-fill me-2 "></i><div className='p-0'>Contact Us</div></NavLink>
