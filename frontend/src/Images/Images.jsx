@@ -49,7 +49,7 @@ const Images = () => {
         }
     }
     return (
-        <div className='min-vh-100'>
+        <div className='' style={{ height: '100vh',WebkitScroll:'0px' }}>
             <center className='fs-1 w-100 text-white pb-3' style={{ background: 'rgb(0 0 0 /75%)' }}>Images</center>
             <center><p>House and Suroundings</p></center>
             <div className='container-fluid text-white' style={{ background: 'rgb(0 0 0 / 45%)' }}>
