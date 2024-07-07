@@ -50,8 +50,8 @@ const Images = () => {
     }
     return (
         <div className='' style={{ height: '' }}>
-            <center className='fs-1 w-100 text-white pb-3' style={{ background: 'rgb(0 0 0 /75%)' }}>Images</center>
-            <center><p>House and Suroundings</p></center>
+            <center className='w-100 text-white pb-2' style={{ background: 'rgb(0 0 0 /75%)' }}><h1>Images</h1></center>
+            <center className='text-white pb-3' style={{ letterSpacing: '2px', wordSpacing: '3px', background: 'rgb(0 0 0 /75%)' }}><p>House and Suroundings</p></center>
             <div className='container-fluid text-white' style={{ background: 'rgb(0 0 0 / 45%)' }}>
                 <div className='row' >
                     {
