@@ -25,11 +25,11 @@ const WhyChooseUs = () => {
                     <img className='handleImage4' src={img1} style={{ width: '30%', marginLeft: '25%', marginTop: "-10%", marginRight: '', position: 'relative', zIndex: '3' }} onClick={e => handleOpenNewTab(img1)} />
                     <img className='handleImage4' src={img12} style={{ width: '30%', marginTop: '-10%', position: 'relative', marginLeft: "8%", marginRight: '70%', zIndex: '4' }}  onClick={e => handleOpenNewTab(img12)} />
                 </div>
-                <div className='col-sm-12 col-lg-6 container show750px my-3' style={{minHeight:"400px"}}>
+                <div className='col-sm-12 col-lg-6 container show750px my-3 pt-3' style={{minHeight:"400px" ,background:'rgb(0 0 0 / 65%)'}}>
                     {/* <h1 className='text-upper fw-bolder' style={{ fontSize: '78px' }}></h1> */}
                     <TypewriterEffect texts={text} pauseDuration={2000} loop={false} typingSpeed={10} />
                 </div>
-                <div className='col-sm-12 col-lg-6 container my-3 less1000px' style={{minHeight:"250px"}}>
+                <div className='col-sm-12 col-lg-6 container my-3 less1000px pt-3' style={{minHeight:"250px" ,background:'rgb(0 0 0 / 65%)'}}>
                     {/* <h1 className='text-upper fw-bolder' style={{ fontSize: '78px' }}></h1> */}
                     <TypewriterEffect texts={text} pauseDuration={2000} loop={false} typingSpeed={10} />
                 </div>

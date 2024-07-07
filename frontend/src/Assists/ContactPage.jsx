@@ -15,7 +15,7 @@ const ContactPage = () => {
           <div className='row px-4'>
             <div className="card mx-1 hoverContact col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mb-3 p-2" style={{ maxWidth: "300px" }}>
               <b className='fs-4 card-header' style={{ background: 'transparent', color: '' }}>Name</b><br />
-             Puran Kala<br />
+             Puran Chandra Kala<br />
             </div>
             <div className="card mx-1 hoverContact col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 mb-3 p-2" style={{ maxWidth: "300px" }}>
               <b className='fs-4 card-header' style={{ background: 'transparent', color: '' }}>Email</b><br />
@@ -30,7 +30,7 @@ const ContactPage = () => {
             </div>
             <div className="card mx-1 hoverContact col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 mb-3 p-2" style={{ maxWidth: "300px" }}>
               <b className='fs-4 card-header' style={{ background: 'transparent', color: '' }}>Address</b><br />
-              Nayar valley, Near The Hans Foundation General Hospital (THFGH), Satpuli<br />
+              Chamolisen, Sela, Langoor Valla 4 - Pauri Ghardwal, Nayar valley, Near The Hans Foundation General Hospital (THFGH), Satpuli<br />
             </div>
           </div>
         </div>
