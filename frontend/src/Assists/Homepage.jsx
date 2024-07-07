@@ -39,10 +39,10 @@ const Homepage = () => {
             <div className='' style={{ minWidth: '350px' }}>
                 <div style={{ background: "rgba(0 0 0 / 80%)", zIndex: '100', position: "absolute", width: "100%" }}>
                     <center className='text-white py-2 showHptl' style={{ fontSize: '3em' }}>
-                        Nearest Hospital - <b>The Hans Foundation General Hospital (THFGH)</b>, Satpuli
+                        MEDICAL FACILITIES AT 0 KM , Satpuli
                     </center>
                     <center className='text-white hidehspital py-2' style={{ fontSize: '1.5em' }}>
-                        Nearest Hospital - <b>The Hans Foundation General Hospital (THFGH)</b>, Satpuli
+                        MEDICAL FACILITIES AT 0 KM , Satpuli
                     </center>
                 </div>
                 <div className='p-5 text-white less1000px' style={{
@@ -50,13 +50,13 @@ const Homepage = () => {
                     minHeight: '10px',
                     zIndex: '100',
                     width: '100%',
-                    marginTop: '87px',
+                    marginTop: '86px',
                     // left: "10%",
                     // right: "10%",
                     background: 'rgb(0 0 0 / 40%)'
                 }}>
                     <div>
-                        <strong>The Hans Foundation General Hospital,Satpuli</strong>
+                        <h1>The Hans Foundation General Hospital,Satpuli</h1>
                         <p>
                             Our residence is in front of THFGH.
                             <br />
@@ -69,7 +69,7 @@ const Homepage = () => {
                     minHeight: '350px',
                     zIndex: '100',
                     width: '100%',
-                    marginTop: '70px',
+                    marginTop: '50px',
                     // left: "10%",
                     // right: "10%",
                     background: 'rgb(0 0 0 / 40%)'
@@ -83,7 +83,7 @@ const Homepage = () => {
                         </p>
                     </div>
                 </div>
-                <img src={hsptl} className='handleHospitalImage show750px' style={{ maxWidth: "", width: '100%', maxHeight: '600px', minHeight: "450px" }} />
+                <img src={hsptl} className='handleHospitalImage show750px' style={{ maxWidth: "", width: '100%', maxHeight: '600px', minHeight: "500px" }} />
                 <img src={hsptl} className='handleHospitalImage less1000px' style={{ maxWidth: "", width: '100%', maxHeight: '350px', minHeight: "300px" }} />
                 <button className='btn btn-primary rounded-0 show750px' style={{ position: 'relative', zIndex: '200', marginTop: '-20px', marginLeft: '25px' }} onClick={e => setMapShow(!mapShow)}>{!mapShow ? 'Open Map' : 'Close Map'}</button>
                 <button className='btn btn-primary rounded-0 less1000px ' style={{ position: 'relative', zIndex: '200', marginTop: '-50px', marginLeft: '25px' }} onClick={e => setMapShow(!mapShow)}>{!mapShow ? 'Open Map' : 'Close Map'}</button>
