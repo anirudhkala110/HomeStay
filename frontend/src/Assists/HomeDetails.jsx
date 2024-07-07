@@ -47,7 +47,7 @@ const HomeDetails = () => {
                         <p>
                             We offer a range of amenities to ensure a comfortable and enjoyable stay:
                             <ul>
-                                <li><b>Dining: </b>Enjoy delicious local and international cuisine at our on-site restaurant, with outdoor seating available for dining with a view.</li>
+                                <li><b>Food Facilities & Dining: </b>Enjoy delicious local and international cuisine at our on-site restaurant, with outdoor seating available for dining with a view.</li>
                                 <li><b>Outdoor Activities: </b>Explore hiking trails, fishing spots, and picnic areas nearby.</li>
                                 <li><b>Bonfire Nights: </b>Gather around a cozy bonfire in the evenings, perfect for stargazing and storytelling.</li>
                                 <li><b>Wellness Facilities: </b> Rejuvenate with yoga sessions, meditation areas, and massage services.</li>
