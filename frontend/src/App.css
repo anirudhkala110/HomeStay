@@ -47,13 +47,13 @@ html {
 }
 
 .galleryHover {
-  opacity: 1;
   transform: scale(0.98);
+  opacity: 0.95;
   transition: .3s ease-in-out;
 }
 
 .galleryHover:hover {
-  opacity: 0.8;
+  opacity: 1;
   transform: scale(1);
   cursor: pointer;
   /* border-radius: 20px; */
