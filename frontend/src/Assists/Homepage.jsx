@@ -17,7 +17,7 @@ import WhyChooseUs from './WhyChooseUs'
 const Homepage = () => {
     const [mapShow, setMapShow] = useState(false)
     return (
-        <div className=' px-0 min-vh-100' style={{ minWidth:"400px" }}>
+        <div className=' px-0 min-vh-100' style={{ minWidth: "400px" }}>
             <div className='less1000px align-items-center text-white px-2' style={{ background: "#000000a3", position: 'absolute', lineHeight: '4', top: '200px', zIndex: '100', width: '100%', minHeight: "320px", fontSize: "5rem" }}>
                 <TypewriterEffect texts={"Welcome to <b> Home Stay  at Nayar Valley</b> . . ."} typingSpeed={50} pauseDuration={2000} />
             </div>
@@ -37,16 +37,56 @@ const Homepage = () => {
                 <WhyChooseUs />
             </div>
             <div className='' style={{ minWidth: '350px' }}>
-                <div style={{ background: "rgba(0 0 0 / 80%)",  zIndex:'100',position: "absolute" ,width:"100%"}}>
-                    <center className='text-white py-2 showHptl' style={{ fontSize: '3em'}}>
+                <div style={{ background: "rgba(0 0 0 / 80%)", zIndex: '100', position: "absolute", width: "100%" }}>
+                    <center className='text-white py-2 showHptl' style={{ fontSize: '3em' }}>
                         Nearest Hospital - <b>The Hans Foundation General Hospital (THFGH)</b>, Satpuli
                     </center>
-                    <center className='text-white hidehspital py-2' style={{ fontSize: '1.2em' }}>
+                    <center className='text-white hidehspital py-2' style={{ fontSize: '1.5em' }}>
                         Nearest Hospital - <b>The Hans Foundation General Hospital (THFGH)</b>, Satpuli
                     </center>
                 </div>
-                <img src={hsptl} className='handleHospitalImage' style={{ maxWidth: "", width: '100%',maxHeight:'600px' }} />
-                <button className='btn btn-primary rounded-0' style={{position:'relative', zIndex:'100', marginTop:'-100px',marginLeft:'25px'}} onClick={e => setMapShow(!mapShow)}>{!mapShow ? 'Open Map' : 'Close Map'}</button>
+                <div className='p-5 text-white less1000px' style={{
+                    position: 'absolute',
+                    minHeight: '10px',
+                    zIndex: '100',
+                    width: '100%',
+                    marginTop: '87px',
+                    // left: "10%",
+                    // right: "10%",
+                    background: 'rgb(0 0 0 / 40%)'
+                }}>
+                    <div>
+                        <strong>The Hans Foundation General Hospital,Satpuli</strong>
+                        <p>
+                            Our residence is in front of THFGH.
+                            <br />
+                            THFGH is a compassionate endeavor to provide access to affordable, quality medical care for the rural underprivileged in and around the state of Uttarakhand. With nearly 160 clinical staff, 125 non-clinical staff members, and 60 outsourced staff members, the hospital has completed nearly 40,000 surgeries.  It has catered to over fifty-seven thousand people in its inpatient department (IPD) and has provided health care services to nearly five and a half lakh people in the outpatient department (OPD).
+                        </p>
+                    </div>
+                </div>
+                <div className='p-5 text-white show750px' style={{
+                    position: 'absolute',
+                    minHeight: '350px',
+                    zIndex: '100',
+                    width: '100%',
+                    marginTop: '70px',
+                    // left: "10%",
+                    // right: "10%",
+                    background: 'rgb(0 0 0 / 40%)'
+                }}>
+                    <div>
+                        <strong><h3>The Hans Foundation General Hospital,Satpuli</h3></strong>
+                        <p>
+                            Our residence is in front of THFGH.
+                            <br />
+                            THFGH is a compassionate endeavor to provide access to affordable, quality medical care for the rural underprivileged in and around the state of Uttarakhand. With nearly 160 clinical staff, 125 non-clinical staff members, and 60 outsourced staff members, the hospital has completed nearly 40,000 surgeries.  It has catered to over fifty-seven thousand people in its inpatient department (IPD) and has provided health care services to nearly five and a half lakh people in the outpatient department (OPD).
+                        </p>
+                    </div>
+                </div>
+                <img src={hsptl} className='handleHospitalImage show750px' style={{ maxWidth: "", width: '100%', maxHeight: '600px', minHeight: "450px" }} />
+                <img src={hsptl} className='handleHospitalImage less1000px' style={{ maxWidth: "", width: '100%', maxHeight: '350px', minHeight: "300px" }} />
+                <button className='btn btn-primary rounded-0 show750px' style={{ position: 'relative', zIndex: '200', marginTop: '-20px', marginLeft: '25px' }} onClick={e => setMapShow(!mapShow)}>{!mapShow ? 'Open Map' : 'Close Map'}</button>
+                <button className='btn btn-primary rounded-0 less1000px ' style={{ position: 'relative', zIndex: '200', marginTop: '-50px', marginLeft: '25px' }} onClick={e => setMapShow(!mapShow)}>{!mapShow ? 'Open Map' : 'Close Map'}</button>
                 <div>
 
                 </div>

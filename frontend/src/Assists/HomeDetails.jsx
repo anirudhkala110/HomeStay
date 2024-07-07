@@ -23,7 +23,7 @@ const HomeDetails = () => {
                     </center>
                     <img className='handleImage3' src={img1} style={{ width: '30%', marginTop: '-10%', position: 'relative', marginLeft: "8%", marginRight: '70%', zIndex: '2' }} onClick={e => handleOpenNewTab(img1)} />
                 </div>
-                <div className='col-sm-12 col-lg-6 container my-3 p-2 text-white' style={{ background: "rgb(0 0 0 / 45%)", textAlign: 'justify' }}>
+                <div className='col-sm-12 col-lg-6 container my-3 py-2 px-3 text-white' style={{ background: "rgb(0 0 0 / 45%)", textAlign: 'justify' }}>
                     <h1><b>Welcome </b>to <strong> Home Stay at Nayar Valley </strong></h1>
                     <div className=''>
                         <h3>Overview</h3>
@@ -31,7 +31,7 @@ const HomeDetails = () => {
                             Nestled between majestic mountains and serene rivers, our  Home Stay at Nayar Valley offers a perfect blend of natural beauty and modern comfort. Ideal for nature lovers, adventure seekers, and those looking to escape the hustle and bustle of city life, this retreat promises an unforgettable experience.
                         </p>
                     </div>
-                    <div className=''>
+                    <div className='px-3'>
                         <h3>Accommodations</h3>
                         <p>
                             Our  Home Stay at Nayar Valley features a variety of accommodation options to suit your needs. Each room is designed with comfort and relaxation in mind, offering stunning views of the surrounding landscapes.
@@ -42,7 +42,7 @@ const HomeDetails = () => {
                             </ul>
                         </p>
                     </div>
-                    <div className=''>
+                    <div className='px-3'>
                         <h3>Amenities</h3>
                         <p>
                             We offer a range of amenities to ensure a comfortable and enjoyable stay:
