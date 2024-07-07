@@ -44,7 +44,7 @@ const Navbar = () => {
                     </div>
                     <div>
                         <a className="nav-item text-decoration-none text-white fw-bold" style={{ fontSize: '18px' }}>
-                            <NavLink className="nav-link" to="/about"><i class="bi bi-person"></i></NavLink>
+                            <NavLink className="nav-link d-flex align-items-center justify-content-between" to="/gallery"><i class="bi bi-images me-2"></i><div className='p-0'></div></NavLink>
                         </a>
                     </div>
                     <div>
